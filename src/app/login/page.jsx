@@ -9,7 +9,7 @@ const Page = () => {
         Login with credentials
       </h2>
       <Login />
-      <p className="text-center text-sm">
+      <p className="text-center text-sm text-gray-300">
         Dont have an account?{" "}
         <Link href={"/sign-up"} className="text-accent-300">
           Sign up

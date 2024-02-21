@@ -35,7 +35,7 @@ const Signup = () => {
           ref={fullnameRef}
           type="text"
           placeholder="Full Name"
-          className="bg-transparent ring-1 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
+          className="bg-transparent ring-1 focus:ring-2 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               usernameRef.current?.focus();
@@ -49,7 +49,7 @@ const Signup = () => {
           ref={usernameRef}
           type="text"
           placeholder="Choose a username"
-          className="bg-transparent ring-1 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
+          className="bg-transparent ring-1 focus:ring-2 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               passwordRef.current?.focus();
@@ -63,7 +63,7 @@ const Signup = () => {
           ref={passwordRef}
           type="password"
           placeholder="Enter a password"
-          className="bg-transparent ring-1 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
+          className="bg-transparent ring-1 focus:ring-2 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               confirmPasswordRef.current?.focus();
@@ -77,7 +77,7 @@ const Signup = () => {
           ref={confirmPasswordRef}
           type="password"
           placeholder="Confirm password"
-          className="bg-transparent ring-1 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
+          className="bg-transparent ring-1 focus:ring-2 ring-primary-700 focus:ring-primary-300 outline-none px-2 py-3 rounded transition-all text-sm w-[240px] text-gray-300"
           onKeyDown={(e) => {
             if (e.key === "ArrowDown") {
               fullnameRef.current?.focus();
@@ -90,7 +90,7 @@ const Signup = () => {
           }
         />
         <button
-          className="bg-primary-500 hover:bg-primary-600 transition-all text-gray-800 font-semibold px-3 py-2 rounded"
+          className="bg-primary-500 mt-2 hover:bg-primary-600 transition-all text-gray-800 font-semibold px-3 py-2 rounded"
           onClick={signup}
         >
           Register
