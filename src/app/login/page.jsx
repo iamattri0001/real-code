@@ -10,7 +10,7 @@ const Page = () => {
       </h2>
       <Login />
       <p className="text-center text-sm">
-        Don't have an account?{" "}
+        Dont have an account?{" "}
         <Link href={"/sign-up"} className="text-accent-300">
           Sign up
         </Link>
