@@ -22,7 +22,7 @@ const Dashboard = () => {
             Unlock the power of seamless collaboration in coding with RealCode.
             Our platform offers a cutting-edge real-time collaborative code
             editor designed to streamline teamwork and enhance productivity for
-            programmers of all levels. Whether you're a seasoned developer or
+            programmers of all levels. Whether you&apos;re a seasoned developer or
             just starting out, RealCode provides the perfect environment for you
             and your team to thrive.
           </p>
@@ -43,14 +43,14 @@ const Dashboard = () => {
               icon={<GrGroup />}
               title={"Team Creation and Management"}
               description={
-                "Easily create teams and invite members to join your coding projects. Whether you're working on a small side project or a large-scale application, RealCode's intuitive team management tools make it simple to coordinate efforts and stay organized."
+                "Easily create teams and invite members to join your coding projects. Whether you&apos;re working on a small side project or a large-scale application, RealCode&apos;s intuitive team management tools make it simple to coordinate efforts and stay organized."
               }
             />
             <Card
               icon={<IoShareSocial />}
               title={"Project Sharing and Accessibility"}
               description={
-                "Share your projects with teammates or make them public to collaborate with the wider coding community. RealCode ensures that your code is always accessible, whether you're working from your desktop, laptop, or mobile device. Seamlessly switch between devices without missing a beat."
+                "Share your projects with teammates or make them public to collaborate with the wider coding community. RealCode ensures that your code is always accessible, whether you&apos;re working from your desktop, laptop, or mobile device. Seamlessly switch between devices without missing a beat."
               }
             />
           </div>
@@ -79,9 +79,9 @@ const Dashboard = () => {
           <p className="text-center text-text-50/85">
             Ready to experience the future of collaborative coding? Sign up for
             RealCode today and join a community of passionate programmers
-            dedicated to pushing the boundaries of innovation. Whether you're
+            dedicated to pushing the boundaries of innovation. Whether you&apos;re
             working on a solo project or building a world-changing application
-            with your team, RealCode is your ultimate coding companion. Let's
+            with your team, RealCode is your ultimate coding companion. Let&apos;s
             code together, in real-time.
           </p>
           <div className="flex items-center justify-center gap-x-5">

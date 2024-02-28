@@ -20,6 +20,9 @@ const TeamCard = () => {
       <p className="text-xs">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, amet?
       </p>
+      <div>
+        
+      </div>
     </div>
   );
 };
