@@ -13,8 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={
-          inter.className +
-          " bg-background-950 min-h-screen text-text-100 px-6 py-1 flex items-center justify-center"
+          "bg-background-950 min-h-screen text-text-100 px-6 py-1 flex items-center justify-center"
         }
       >
         {children}

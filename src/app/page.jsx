@@ -1,12 +1,7 @@
-import React from "react";
-import Loading from "./loading";
+import { redirect } from "next/navigation";
 
 const Home = () => {
-  return (
-    <div>
-      Home
-    </div>
-  );
+  redirect("/dashboard");
 };
 
 export default Home;
